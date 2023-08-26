@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containerserE {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: 90%;
+    margin: auto;
+}
+
+
+.containerserE .boxserE {
+    border: 1px dashed blueviolet;
+    margin: 4px 4px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.containerserE .boxserE img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    display: block; 
+    margin: auto;
+}
+
+
+.containerserE h2{
+    font-size: 30px;
+    color: #837491;
+    font-weight: bolder;
+}
+
+.containerserE h3{
+    color: #837491;
+}
